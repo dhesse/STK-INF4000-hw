@@ -4,32 +4,25 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Style-Type" content="text/css" />
   <meta name="generator" content="pandoc" />
-  <title></title>
+  <title>Week 1</title>
   <style type="text/css">code{white-space: pre;}</style>
   <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
 </head>
 <body>
-<h1 id="week-1">Week 1</h1>
-<h2 id="python">Python</h2>
-<ul>
+<div id="header">
+<h1 class="title">Week 1</h1>
+</div>
+<h1 id="python">Python</h1>
+<ol style="list-style-type: decimal">
 <li>Install <code>python</code>, <code>pip</code>, and <code>virtualenv</code>.</li>
 <li>Create a project folder and a virtual environment.</li>
-<li>Install <code>jupyter</code>, <code>matplotlib</code>, and <code>mbstripout</code>.
-<ul>
-<li>Active <code>nbstriput</code>.</li>
-</ul></li>
-<li>Head over to <a href="https://google.com/trends">google trends</a> and download a <code>.csv</code> file of a search term of your choice.</li>
+<li>Install <code>jupyter</code> and <code>matplotlib</code>.</li>
+<li>Head over to <a href="https://google.com/trends">google trends</a> and download a <code>.csv</code> file of a number of search terms of your choice.</li>
 <li>Read the data in a notebook and make a plot showing search interest over time.</li>
-</ul>
-<p>Let <span class="math inline">\(c_i\)</span> be the i-th week search interest. Calculate the k-week averages, defined by</p>
-<p><span class="math display">\[ \hat c_i^k = \frac 1 k \sum_{l = i - k}^{i} c_i \]</span></p>
-<p>and the derivation</p>
-<p><span class="math display">\[ \delta_i^k = c_i - \hat c_i^k\,.\]</span></p>
-<p>Plot the 4- and 8-week average and the deviations. What trends do you observe?</p>
-<ul>
+<li>Let <span class="math inline">\(c_i\)</span> be the i-th week search interest of a given search term. Calculate the k-week averages, defined by <span class="math display">\[ \hat c_i^k = \frac 1 k \sum_{l = i - k}^{i} c_i\,,\]</span> and the derivation <span class="math display">\[ \delta_i^k = c_i - \hat c_i^k\,.\]</span> Plot the 4- and 8-week averages and their deviations. What trends do you observe?</li>
 <li>Create a <a href="http://daringfireball.net/projects/markdown/">Markdown</a> document containing the plots and your observations.</li>
 <li>Using the <code>csv</code> package, write your calculated averages and the deviations to a file.</li>
 <li>Go through the list of data sets located on <a href="https://github.com/caesar0301/awesome-public-datasets">github</a> and pick one in <code>.csv</code> or <code>JSON</code>, read it, make some plots and write down your observations.</li>
-</ul>
+</ol>
 </body>
 </html>
