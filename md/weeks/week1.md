@@ -10,8 +10,8 @@
 5. Read the data in a notebook and make a plot showing search interest
    over time.
 6. Let $c_i$ be the i-th week search interest of a given search
-   term. Calculate the k-week averages, defined by
-     $$ \hat c_i^k = \frac 1 k \sum_{l = i - k}^{i} c_i\,,$$
+   term. Calculate the (k + 1)-week averages, defined by
+     $$ \hat c_i^k = \frac 1 {k + 1} \sum_{l = i - k}^{i} c_l\,,$$
    and the derivation
      $$ \delta_i^k = c_i - \hat c_i^k\,.$$
    Plot the 4- and 8-week averages and their deviations. What trends do
