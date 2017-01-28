@@ -47,3 +47,13 @@ here and at UiO's course page.
     - RESTful APIs
         - Twitter API
         - Facebook API
+- Week 4:
+    - Python Leftovers.
+        - The `pandas` package.
+    - Introduction to Machine Learning.
+        - Aims of ML.
+            - Interpretability vs. accuracy.
+        - Just enough theory.
+        - K-Nearest Neighbors.
+    - `scikit-learn`: Machine Learning in Python.
+        - K-Nearest Neighbors on real-world data.
