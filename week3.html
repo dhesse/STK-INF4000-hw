@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Week 3</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Week 3</h1>
+</div>
+<h1 id="testing">Testing</h1>
+<ol style="list-style-type: decimal">
+<li>Write a set of unit tests for any non-trivial class or function from previous lectures or homework assignments.</li>
+<li>Document a function and run doctests on it.</li>
+</ol>
+<h1 id="twitter">Twitter</h1>
+<ol style="list-style-type: decimal">
+<li>Sign up for twitter <a href="https://twitter.com/signup">here</a> and create your first app <a href="https://apps.twitter.com/">here</a>. Note down your <em>consumer key</em>, <em>consumer secret</em>, <em>access token</em>, and <em>access token secret</em> in a <strong>safe</strong> location.</li>
+<li>Install the <code>requests</code> and <code>requests_oauthlib</code> packages and, using the code from the lecture, collect the most common domains linked by Twitter statuses of a topic of your choice.</li>
+<li>Using <code>mathplotlib</code>, visualize the results of the previous task.</li>
+<li><em>Advanced</em>: Write a generator to help you with the task of extracting information. It should continue yielding domains indefinitely. Break the task down in small functions and write unit tests for each of those.</li>
+</ol>
+<h1 id="mongodb">MongoDB</h1>
+<ol style="list-style-type: decimal">
+<li>Install MongoDB and the <code>pymongo</code> package on your computer.</li>
+<li>Create a small database of information of your choice. You can do this manually, record by record (a handful is enough), or you can try storing some of the information you scraped last week.</li>
+<li>Experiment with retrieving and updating information.</li>
+<li><em>Advanced</em>: Write a few aggregations on your data.</li>
+<li><em>Advanced, but recommmended</em>: Use your Twitter code to store statuses for a given topic over a longer period of time, using the <code>filter</code> streaming API. A meaningful period could be e.g. 12 or 24 hours. Make a plot of the per-hour interest in your topic.</li>
+</ol>
+</body>
+</html>
