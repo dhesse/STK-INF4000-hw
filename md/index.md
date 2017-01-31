@@ -9,6 +9,7 @@ the spring term 2017.
 - [Week 1](week1.html)
 - [Week 2](week2.html)
 - [Week 3](week3.html)
+- [Week 4](week4.html)
 
 # Syllabus
 
@@ -58,3 +59,11 @@ here and at UiO's course page.
         - K-Nearest Neighbors.
     - `scikit-learn`: Machine Learning in Python.
         - K-Nearest Neighbors on real-world data.
+- Week 5:
+   - *Probably* more python Leftovers.
+   - Git and github.
+       - Why source control?
+       - What git can do for you.
+   - Linear regression.
+       - Gaining insights through machine learning.
+   - Project assignment discussion.
