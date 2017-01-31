@@ -30,5 +30,13 @@ Use the [templates][templ] repository for boilerplate code.
    model $\hat f_{\tilde X, \tilde y, k}$ and computes the $MSE(y,
    \hat y)$ for the $k$-Nearest-Neighbor prediction $\hat y = \hat
    f_{\tilde X, \tilde y, k}(X)$ and $y$, given the test data.
+3. *Advanced:* Head back to the [list of datasets][ads] and find one
+   with continuous variables that interests you. Select a number of
+   variables as your input set $X$ and the quantity $y$ that you're
+   interested in predicting. Split the data in training and test set
+   and plot the mean standard error of a k-nearest neighbors
+   prediction in dependence of $k$. How does this change if you
+   include more input variables into $X$?
 
 [templ]: https://github.com/dhesse/STK-INF4000-templates
+[ads]: https://github.com/caesar0301/awesome-public-datasets
