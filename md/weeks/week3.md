@@ -1,5 +1,7 @@
 % Week 3
 
+Use the [templates][templ] repository for boilerplate code.
+
 # Testing
 
 1. Write a set of unit tests for any non-trivial class or function
@@ -36,3 +38,4 @@
 
 [twit-signup]: https://twitter.com/signup
 [twit-app]: https://apps.twitter.com/
+[templ]: https://github.com/dhesse/STK-INF4000-templates
