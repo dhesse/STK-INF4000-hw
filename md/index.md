@@ -10,6 +10,7 @@ the spring term 2017.
 - [Week 2](week2.html)
 - [Week 3](week3.html)
 - [Week 4](week4.html)
+- [Week 5](week5.html)
 
 # Syllabus
 
@@ -18,7 +19,7 @@ degree to student's requests concerning the syllabus. As soon as I can
 foresee the content of the following lectures, it will be published
 here and at UiO's course page.
 
-- Week 1:
+- Week 1 (Jan. 16th):
     - Welcome.
         - What is data science?
         - Why should you take this course?
@@ -30,7 +31,7 @@ here and at UiO's course page.
         - Lists and tuples.
         - Functions.
         - Plotting.
-- Week 2:
+- Week 2 (Jan. 23rd):
     - Python, part 2
         - Dictionaries
         - Objects
@@ -39,7 +40,7 @@ here and at UiO's course page.
         - Scraping etiquette.
         - Extracting information from HTML pages.
         - Spiders and Crawlers in Python.
-- Week 3:
+- Week 3 (Jan. 30th):
     - Python, part 3
         - Scipy/Numpy
         - Unit testing
@@ -49,9 +50,7 @@ here and at UiO's course page.
     - RESTful APIs
         - Twitter API
         - Facebook API
-- Week 4:
-    - Python Leftovers.
-        - The `pandas` package.
+- Week 4 (Feb. 6th):
     - Introduction to Machine Learning.
         - Aims of ML.
             - Interpretability vs. accuracy.
@@ -59,11 +58,25 @@ here and at UiO's course page.
         - K-Nearest Neighbors.
     - `scikit-learn`: Machine Learning in Python.
         - K-Nearest Neighbors on real-world data.
-- Week 5:
-   - *Probably* more python Leftovers.
+- Week 5 (Feb. 13th):
+   - Project discussion.
+   - Small data in Python: The `pandas` package.
+   - Python leftovers.
+       - `scipy` and `numpy`
+       - Generators.
+       - Error handling and logging.
+- Week 6 (Feb. 20th)
    - Git and github.
        - Why source control?
        - What git can do for you.
    - Linear regression.
-       - Gaining insights through machine learning.
-   - Project assignment discussion.
+       - Introduction to linear methods.
+       - Linear regression in `scikit-learn`.
+       - Linear regression in `scipy`.
+- Week 7 (Feb. 27th)
+     - Regularized linear regression.
+     - Big data strategies.
+     - MapReduce.
+     - Apache Spark.
+
+
