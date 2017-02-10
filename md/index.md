@@ -59,24 +59,24 @@ here and at UiO's course page.
     - `scikit-learn`: Machine Learning in Python.
         - K-Nearest Neighbors on real-world data.
 - Week 5 (Feb. 13th):
-   - Project discussion.
-   - Small data in Python: The `pandas` package.
-   - Python leftovers.
-       - `scipy` and `numpy`
-       - Generators.
-       - Error handling and logging.
+    - Project discussion.
+    - Small data in Python: The `pandas` package.
+    - Python leftovers.
+        - `scipy` and `numpy`
+        - Generators.
+        - Error handling and logging.
 - Week 6 (Feb. 20th)
-   - Git and github.
-       - Why source control?
-       - What git can do for you.
-   - Linear regression.
-       - Introduction to linear methods.
-       - Linear regression in `scikit-learn`.
-       - Linear regression in `scipy`.
+    - Git and github.
+        - Why source control?
+        - What git can do for you.
+    - Linear regression.
+        - Introduction to linear methods.
+        - Linear regression in `scikit-learn`.
+        - Linear regression in `scipy`.
 - Week 7 (Feb. 27th)
-     - Regularized linear regression.
-     - Big data strategies.
-     - MapReduce.
-     - Apache Spark.
+    - Regularized linear regression.
+    - Big data strategies.
+    - MapReduce.
+    - Apache Spark.
 
 
