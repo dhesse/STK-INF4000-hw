@@ -60,7 +60,9 @@ here and at UiO's course page.
         - K-Nearest Neighbors on real-world data.
 - Week 5 (Feb. 13th):
     - Project discussion.
-    - Small data in Python: The `pandas` package.
+    - Small data EDA in Python: The `pandas` package.
+        - What is EDA?
+        - What should I look for?
     - Python leftovers.
         - `scipy` and `numpy`
         - Generators.
