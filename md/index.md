@@ -63,18 +63,18 @@ here and at UiO's course page.
     - Small data EDA in Python: The `pandas` package.
         - What is EDA?
         - What should I look for?
+- Week 6 (Feb. 20th)
     - Python leftovers.
         - `scipy` and `numpy`
         - Generators.
         - Error handling and logging.
-- Week 6 (Feb. 20th)
-    - Git and github.
-        - Why source control?
-        - What git can do for you.
     - Linear regression.
         - Introduction to linear methods.
         - Linear regression in `scikit-learn`.
         - Linear regression in `scipy`.
+    - Git and github.
+        - Why source control?
+        - What git can do for you.
 - Week 7 (Feb. 27th)
     - Regularized linear regression.
     - Big data strategies.
