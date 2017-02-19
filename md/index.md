@@ -65,21 +65,21 @@ here and at UiO's course page.
         - What is EDA?
         - What should I look for?
 - Week 6 (Feb. 20th)
-    - Python leftovers.
-        - `scipy` and `numpy`
-        - Generators.
-        - Error handling and logging.
     - Linear regression.
         - Introduction to linear methods.
         - Linear regression in `scikit-learn`.
         - Linear regression in `scipy`.
-    - Git and github.
-        - Why source control?
-        - What git can do for you.
+        - Regularized linear regression.
+    - Python leftovers.
+        - `scipy` and `numpy`
+        - Generators.
+        - Error handling and logging.
 - Week 7 (Feb. 27th)
-    - Regularized linear regression.
     - Big data strategies.
     - MapReduce.
     - Apache Spark.
+    - Git and github.
+        - Why source control?
+        - What git can do for you.
 
 
