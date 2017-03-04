@@ -11,8 +11,7 @@
 4. Compute the group means $\mu_l$, the priors $\pi_l$ and the
    $\Sigma$ matrix for a linear discriminant analysis (LDA) on the
    data using Spark.
-5. Fit a Logistic Regression model including a constant term in
-   Spark.
+5. Fit a Logistic Regression model in Spark.
 6. Evaluate how well Logistic Regression performs compared to LDA.
 
 
