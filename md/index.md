@@ -12,6 +12,8 @@ the spring term 2017.
 - [Week 4](week4.html)
 - [Week 5](week5.html)
 - [Week 6](week6.html)
+- [Week 7](week7.html)
+- [Week 8](week8.html)
 
 # Syllabus
 
@@ -78,8 +80,15 @@ here and at UiO's course page.
     - Big data strategies.
     - MapReduce.
     - Apache Spark.
-    - Git and github.
-        - Why source control?
-        - What git can do for you.
-
+- Week 8 (Mar. 6th)
+    - Linear classification.
+        - The classification problem.
+        - Discriminant Analysis.
+        - Logistic regression.
+    - Applied classification
+        - Classifying by hand.
+        - Scikit-lean and Statsmodels.
+        - Spark
+            - Spark data frames
+            - Logistic regression in Spark.
 
