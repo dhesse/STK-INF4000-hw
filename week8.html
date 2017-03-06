@@ -12,14 +12,15 @@
 <div id="header">
 <h1 class="title">Week 8</h1>
 </div>
+<p>Use the <a href="https://github.com/dhesse/STK-INF4000-templates/tree/master/week08">code templates</a> to get started!</p>
 <h1 id="classification-in-spark">Classification in Spark</h1>
 <ol style="list-style-type: decimal">
 <li>Download the <a href="https://archive.ics.uci.edu/ml/datasets/Covertype">cover type data set</a>.</li>
 <li>Load the data into a Spark data frame and compute summary statistics such as mean, standard deviation, and quantiles on some of the columns.</li>
 <li>Investigate how the means of some of the columns vary with the cover type using the <code>groupBy</code> method.</li>
 <li>Compute the group means <span class="math inline">\(\mu_l\)</span>, the priors <span class="math inline">\(\pi_l\)</span> and the <span class="math inline">\(\Sigma\)</span> matrix for a linear discriminant analysis (LDA) on the data using Spark.</li>
-<li>Fit a Logistic Regression model in Spark.</li>
-<li>Evaluate how well Logistic Regression performs compared to LDA.</li>
+<li>Evaluate how well LDA performs per cover type.</li>
+<li>How can you tweak the prediction algorithm to increase the classification to one specific cover type, possibly at the cost of decreasing performance for the classification to other types?</li>
 </ol>
 </body>
 </html>
