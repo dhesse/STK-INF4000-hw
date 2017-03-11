@@ -14,6 +14,7 @@ the spring term 2017.
 - [Week 6](week6.html)
 - [Week 7](week7.html)
 - [Week 8](week8.html)
+- [Week 9](week9.html)
 
 # Syllabus
 
@@ -88,7 +89,31 @@ here and at UiO's course page.
     - Applied classification
         - Classifying by hand.
         - Scikit-lean and Statsmodels.
-        - Spark
-            - Spark data frames
-            - Logistic regression in Spark.
-
+- Week 9 (Mar. 13th)
+    - Applied classification in Spark
+        - Spark data frames
+        - Logistic regression in Spark.
+    - Unsupervised Learning.
+        - Anomaly detection.
+        - Clustering.
+            - K-Means.
+            - Hierarchical clustering.
+- Week 10 (Mar. 20th)
+    - Tree Methods.
+        - Decision trees, pros and cons.
+        - Trees for classification.
+        - Trees for regression.
+    - Ensemble Methods.
+        - Boosted decision trees.
+        - Random forests.
+- Week 11 (Mar. 27th)
+    - Project delivery discussion (projects due Apr. 3rd).
+    - Keeping track of your code.
+        - `git` 101
+        - Git services, github, bitbucket, and gitlab.
+            - READMEs
+    - Python leftovers.
+        - Error handling.
+        - Logging.
+- Week 12 (Apr. 3rd)
+    - Project presentations.
