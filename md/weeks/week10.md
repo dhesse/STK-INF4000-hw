@@ -21,14 +21,15 @@ Use the lecture's Jupyter Notebook as a starting point.
        the days in $k$ clusters seems to make sense.
      - Produce the elbow plot along the way.
      - Cluster the days according to the $k$ you chose.
-     - Which weekdays occur most commonly in your clusters? Make plot.
+     - Which weekdays occur most commonly in your clusters? Make a
+       plot.
      - Which months occur most commonly in your clusters? Make a plot.
      - Calculate the per-cluster z-values and find the most anomalous
-       days.
+       days (setting e.g. $z_max$ = 3).
 
-## Regression Methods Using Trees
+## Regression Methods Using Trees (if covered)
 
-1. Make a spark data frame containing the hourly counts as a target
+1. Make a Spark data frame containing the hourly counts as a target
    column and the lagged counts (using 1 hour, 1 day, 7 days, 14 days,
    and 28 days as lags) as the feature column.
 2. Split the data in training and test sets, using a date around two

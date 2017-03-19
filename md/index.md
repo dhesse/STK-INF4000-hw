@@ -15,6 +15,7 @@ the spring term 2017.
 - [Week 7](week7.html)
 - [Week 8](week8.html)
 - [Week 9](week9.html)
+- [Week 10](week10.html)
 
 # Syllabus
 
@@ -117,3 +118,7 @@ here and at UiO's course page.
         - Logging.
 - Week 12 (Apr. 3rd)
     - Project presentations.
+- Week 13
+    - More on fraud detection.
+        - How supervised methods can help.
+        - Peer group analysis.

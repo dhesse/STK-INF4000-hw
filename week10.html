@@ -26,14 +26,14 @@
 <li>Using the elbow method, find a good <span class="math inline">\(k\)</span>, such that dividing the days in <span class="math inline">\(k\)</span> clusters seems to make sense.</li>
 <li>Produce the elbow plot along the way.</li>
 <li>Cluster the days according to the <span class="math inline">\(k\)</span> you chose.</li>
-<li>Which weekdays occur most commonly in your clusters? Make plot.</li>
+<li>Which weekdays occur most commonly in your clusters? Make a plot.</li>
 <li>Which months occur most commonly in your clusters? Make a plot.</li>
-<li>Calculate the per-cluster z-values and find the most anomalous days.</li>
+<li>Calculate the per-cluster z-values and find the most anomalous days (setting e.g. <span class="math inline">\(z_max\)</span> = 3).</li>
 </ul></li>
 </ol>
-<h2 id="regression-methods-using-trees">Regression Methods Using Trees</h2>
+<h2 id="regression-methods-using-trees-if-covered">Regression Methods Using Trees (if covered)</h2>
 <ol style="list-style-type: decimal">
-<li>Make a spark data frame containing the hourly counts as a target column and the lagged counts (using 1 hour, 1 day, 7 days, 14 days, and 28 days as lags) as the feature column.</li>
+<li>Make a Spark data frame containing the hourly counts as a target column and the lagged counts (using 1 hour, 1 day, 7 days, 14 days, and 28 days as lags) as the feature column.</li>
 <li>Split the data in training and test sets, using a date around two thirds towards the end of the period your data spans as split point.</li>
 <li>For a number of different tree depths, fit a <code>DecisionTreeRegressor</code> to the training data. Plot the test error vs. the depth. What seems to be a good value for the tree depth?</li>
 <li>Fit a <code>GBTRegressor</code> (Gradient Boosted Tree) to the data. How does its performance compare to the single tree models?</li>
