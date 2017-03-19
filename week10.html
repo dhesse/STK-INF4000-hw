@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Week 10</title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Week 10</h1>
+</div>
+<p><em>These are mainly the assignments from week 9 since we didn't get through all the material.</em></p>
+<p>Use the lecture's Jupyter Notebook as a starting point.</p>
+<h1 id="anomaly-detection">Anomaly Detection</h1>
+<h2 id="classification-methods">Classification Methods</h2>
+<ol style="list-style-type: decimal">
+<li>Head over to the <a href="https://developer.oslobysykkel.no/data">Oslo City Bike webpage</a> and download their 2016 data.</li>
+<li>Load the data into Spark and parse the timestamps of the starts of the trips.</li>
+<li>We'll now repeat the steps from the lecture.
+<ul>
+<li>Calculate the per-day-and-hour trip counts.</li>
+<li>For each day, construct a feature vector containing the trip counts for each hour.</li>
+<li>Using the elbow method, find a good <span class="math inline">\(k\)</span>, such that dividing the days in <span class="math inline">\(k\)</span> clusters seems to make sense.</li>
+<li>Produce the elbow plot along the way.</li>
+<li>Cluster the days according to the <span class="math inline">\(k\)</span> you chose.</li>
+<li>Which weekdays occur most commonly in your clusters? Make plot.</li>
+<li>Which months occur most commonly in your clusters? Make a plot.</li>
+<li>Calculate the per-cluster z-values and find the most anomalous days.</li>
+</ul></li>
+</ol>
+<h2 id="regression-methods-using-trees">Regression Methods Using Trees</h2>
+<ol style="list-style-type: decimal">
+<li>Make a spark data frame containing the hourly counts as a target column and the lagged counts (using 1 hour, 1 day, 7 days, 14 days, and 28 days as lags) as the feature column.</li>
+<li>Split the data in training and test sets, using a date around two thirds towards the end of the period your data spans as split point.</li>
+<li>For a number of different tree depths, fit a <code>DecisionTreeRegressor</code> to the training data. Plot the test error vs. the depth. What seems to be a good value for the tree depth?</li>
+<li>Fit a <code>GBTRegressor</code> (Gradient Boosted Tree) to the data. How does its performance compare to the single tree models?</li>
+<li>Make a histogram of the normalized deviations from your test data.</li>
+</ol>
+</body>
+</html>
