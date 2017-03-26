@@ -98,18 +98,24 @@ here and at UiO's course page.
     - Unsupervised Learning.
         - Anomaly detection.
         - Clustering.
-            - K-Means.
+            - K-Means in Spark.
             - Hierarchical clustering.
 - Week 10 (Mar. 20th)
     - Tree Methods.
         - Decision trees, pros and cons.
         - Trees for classification.
         - Trees for regression.
-    - Ensemble Methods.
-        - Boosted decision trees.
-        - Random forests.
+    - Trees in `scikit-learn`.
 - Week 11 (Mar. 27th)
     - Project delivery discussion (projects due Apr. 3rd).
+    - Regression methods for anomaly detection.
+        - Using trees in Spark.
+    - Ensemble Methods.
+        - Boosted decision trees in Spark.
+        - Random forests in Spark.
+- Week 12 (Apr. 3rd)
+    - Project presentations.
+- Week 13
     - Keeping track of your code.
         - `git` 101
         - Git services, github, bitbucket, and gitlab.
@@ -117,9 +123,3 @@ here and at UiO's course page.
     - Python leftovers.
         - Error handling.
         - Logging.
-- Week 12 (Apr. 3rd)
-    - Project presentations.
-- Week 13
-    - More on fraud detection.
-        - How supervised methods can help.
-        - Peer group analysis.
