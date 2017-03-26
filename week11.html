@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Week 10</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Week 10</h1>
+</div>
+<p>Use the lecture's Jupyter Notebook as a starting point.</p>
+<h1 id="anomaly-detection">Anomaly Detection</h1>
+<h2 id="regression-methods-using-trees">Regression Methods Using Trees</h2>
+<p>Use as last week the <a href="https://developer.oslobysykkel.no/data">Oslo city bike data</a>.</p>
+<ol style="list-style-type: decimal">
+<li>Make a Spark data frame containing the hourly counts as a target column and the lagged counts (using 1 hour, 1 day, 7 days, 14 days, and 28 days as lags) as the feature column.</li>
+<li>Split the data in training and test sets, using a date around two thirds towards the end of the period your data spans as split point.</li>
+<li>For a number of different tree depths, fit a <code>DecisionTreeRegressor</code> to the training data. Plot the test error vs. the depth. What seems to be a good value for the tree depth?</li>
+<li>Make a histogram of the normalized deviations from your test data using a tree of optimal depth.</li>
+<li>Fit a <code>GBTRegressor</code> (Gradient Boosted Tree) to the data. How does its performance compare to the single tree models? Try a number of different values for the number of boosting steps and compare.</li>
+<li>Make a histogram of the normalized deviations from your test data.</li>
+</ol>
+</body>
+</html>

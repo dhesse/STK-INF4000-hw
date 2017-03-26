@@ -16,6 +16,7 @@ the spring term 2017.
 - [Week 8](week8.html)
 - [Week 9](week9.html)
 - [Week 10](week10.html)
+- [Week 11](week11.html)
 
 # Syllabus
 
