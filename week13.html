@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <title>Week 13</title>
+  <style type="text/css">code{white-space: pre;}</style>
+</head>
+<body>
+<div id="header">
+<h1 class="title">Week 13</h1>
+</div>
+<p>Use the lecture's notebook as a starting point. The easiest way to solve these problems is using <code>pandas</code> and <code>scikit-learn</code>. But feel free to use Spark if you're up for a challenge.</p>
+<h1 id="model-evaluation-and-tuning">Model Evaluation and Tuning</h1>
+<ol style="list-style-type: decimal">
+<li>Head over to the <a href="https://catalog.data.gov/dataset/somerville-happiness-survey-responses-2011-2013-2015">Somerville Happiness Survey data</a> and download it.</li>
+<li>Inspect the data set. Your target variable will be <code>How.satisfied.are.you.with.Somerville.as.a.place.to.live.</code>.</li>
+<li>Find at least one categorical variable that you want to include in your model. A good place to start is <code>What.is.your.annual.household.income.</code>.</li>
+<li>Note that the data set has a lot of missing values. Choose at least one variable that you want to include in your model that has missing values. Replace the missing values by the mean (for continuous variables) or the mode (for categorical variables).</li>
+<li>Make a pipeline that includes your data processing steps from the previous two tasks.</li>
+<li>Decide on a simple model you want to use to predict the satisfaction. A tree would be a good place to start.</li>
+<li>Using grid search, tune the most important model parameters, e.g. tree depth. What accuracy can you achieve?</li>
+</ol>
+</body>
+</html>

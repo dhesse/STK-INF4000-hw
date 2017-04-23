@@ -17,6 +17,7 @@ the spring term 2017.
 - [Week 9](week9.html)
 - [Week 10](week10.html)
 - [Week 11](week11.html)
+- [Week 13](week13.html)
 
 # Syllabus
 
@@ -116,6 +117,13 @@ here and at UiO's course page.
 - Week 12 (Apr. 3rd)
     - Project presentations.
 - Week 13
+    - Model Evaluation.
+        - Train error, test error, and all that.
+        - Optimism and AIC.
+        - Bootstrapping and bagging.
+    - Random Forests.
+    - Clean Modeling: Data pipelines.
+- Week 14
     - Keeping track of your code.
         - `git` 101
         - Git services, github, bitbucket, and gitlab.
