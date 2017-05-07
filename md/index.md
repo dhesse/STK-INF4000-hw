@@ -18,6 +18,7 @@ the spring term 2017.
 - [Week 10](week10.html)
 - [Week 11](week11.html)
 - [Week 13](week13.html)
+- [Week 14](week14.html)
 
 # Syllabus
 
@@ -116,18 +117,28 @@ here and at UiO's course page.
         - Random forests in Spark.
 - Week 12 (Apr. 3rd)
     - Project presentations.
-- Week 13
+- Week 13 (Apr. 24th)
     - Model Evaluation.
         - Train error, test error, and all that.
         - Optimism and AIC.
         - Bootstrapping and bagging.
     - Random Forests.
     - Clean Modeling: Data pipelines.
-- Week 14
-    - Keeping track of your code.
-        - `git` 101
-        - Git services, github, bitbucket, and gitlab.
-            - READMEs
-    - Python leftovers.
-        - Error handling.
-        - Logging.
+- Week 14 (May 8th)
+    - Data pipelines in Apache Spark.
+	- Natural Language Processing 101.
+         - What is NLP?
+         - Basic methods of NLP.
+         - Building a simple sentiment analysis tool.
+- Week 15 (May 15th)
+    - Presenting results - the open source way.
+        - Javascript 101
+        - JQuery, Vue.js and Google Charts
+		- Serving data with Flask.
+- Week 16 (May 22nd)
+    - What we missed.
+        - Neural Networks and deep learning.
+        - Support vector machines.
+        - Heuristics.
+    - Review and preparation for the exam.
+    - Q&A.
