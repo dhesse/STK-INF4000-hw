@@ -19,6 +19,7 @@ the spring term 2017.
 - [Week 11](week11.html)
 - [Week 13](week13.html)
 - [Week 14](week14.html)
+- [Week 15](week15.html)
 
 # Syllabus
 
